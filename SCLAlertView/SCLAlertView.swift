@@ -272,7 +272,7 @@ open class SCLAlertView: UIViewController {
         circleView.frame = CGRect(x:x, y:x, width:appearance.kCircleHeight, height:appearance.kCircleHeight)
         circleView.layer.cornerRadius = circleView.frame.size.height / 2
         // Title
-        labelTitle.numberOfLines = 1
+        labelTitle.numberOfLines = 0
         labelTitle.textAlignment = .center
         labelTitle.font = appearance.kTitleFont
         labelTitle.frame = CGRect(x:12, y:appearance.kTitleTop, width: appearance.kWindowWidth - 24, height:appearance.kTitleHeight)
